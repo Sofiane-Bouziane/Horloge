@@ -1,0 +1,141 @@
+body{
+  background-color: #F444;
+}
+
+
+
+
+/*            Horloge Paris       */
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+
+
+  #clock {
+    position: relative;
+    margin: 0 auto;
+    transform: translateX(-50%) rotate(180deg);
+    width: 400px;
+    height: 400px;
+    background: url("https://pub.phyks.me/sdz/sdz/medias/uploads.siteduzero.com_files_163001_164000_163059.png") ;
+    background-size: cover;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(0deg);
+    border-radius: 50%;
+  }
+    #secondes, #minutes, #heures {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform-origin: bottom;
+    }
+    #secondes {
+      width: 2px;
+      height: 180px;
+      background-color: #E73A2C;
+     
+    }
+    #minutes {
+      width: 4px;
+      height: 140px;
+      border-radius: 10px;
+      background-color: yellow;
+      
+    }
+    #heures {
+      width: 5px;
+      height: 100px;
+      border-radius: 5px;
+      background-color: green;
+      
+    }
+
+    /*          Horloge San Francisco              */
+
+    #secondes1, #minutes1, #heures1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform-origin: bottom;
+      }
+      #secondes1 {
+        width: 2px;
+        height: 180px;
+        background-color: #E73A2C;
+      }
+      #minutes1 {
+        width: 4px;
+        height: 140px;
+        border-radius: 10px;
+        background-color: yellow;
+        
+      }
+      #heures1 {
+        width: 5px;
+        height: 100px;
+        border-radius: 5px;
+        background-color: green;
+        
+      }
+
+      /*          Horloge Bali              */
+
+    #secondes2, #minutes2, #heures2 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform-origin: bottom;
+      }
+      #secondes2 {
+        width: 2px;
+        height: 180px;
+        background-color: #E73A2C;
+      }
+      #minutes2 {
+        width: 4px;
+        height: 140px;
+        border-radius: 10px;
+        background-color: yellow;
+      }
+      #heures2 {
+        width: 5px;
+        height: 100px;
+        border-radius: 5px;
+        background-color: green;
+    
+      }
+
+
+     /*          Horloge Sydney              */
+
+     #secondes3, #minutes3, #heures3 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform-origin: bottom;
+    }
+    #secondes3 {
+      width: 2px;
+      height: 180px;
+      background-color: #E73A2C;
+    }
+    #minutes3 {
+      width: 4px;
+      height: 140px;
+      border-radius: 10px;
+      background-color: yellow;
+    }
+    #heures3 {
+      width: 5px;
+      height: 100px;
+      border-radius: 5px;
+      background-color: green;
+  
+    }
+  
